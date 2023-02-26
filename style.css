@@ -24,6 +24,22 @@ body {
     display: flex;
    justify-content: left;
   }
+  #icon-mail {
+    will-change: transform;
+    transition: transform 450ms;
+  }
+  #icon-git {
+    will-change: transform;
+    transition: transform 450ms;
+  }
+  .animate-git:hover #icon-git {
+    transition: transform 150ms;
+    transform: translateY(-10px);
+  }
+  .animate-mail:hover #icon-mail{
+    transition: transform 150ms;
+    transform: translateY(-10px);
+  }
 i {
     padding: 15px;
     text-decoration: none;
