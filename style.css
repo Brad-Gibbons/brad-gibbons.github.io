@@ -13,6 +13,10 @@ body {
     font-weight: 400;
     color: var(--darkBlue);
 }
+#toggle-lights {
+    float: right;
+    font-size: 30px;
+}
 #bio {
     padding: 10px;
     margin-top: -30px;
@@ -77,3 +81,9 @@ section {
  
 @media all and (max-width: 480px) { }
  
+
+/* Dark Mode */
+
+.dark-mode {
+    color: var(--darkBlue);
+}
