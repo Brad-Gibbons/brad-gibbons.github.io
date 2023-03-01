@@ -1,4 +1,5 @@
 function toggleLights() {
-    const lightToggle = document.getElementsByClassName('body');
+    const lightToggle = document.getElementById('body');
     lightToggle.classList.toggle('dark-mode')
+    console.log('test')
 }

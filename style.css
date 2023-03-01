@@ -85,5 +85,6 @@ section {
 /* Dark Mode */
 
 .dark-mode {
-    color: var(--darkBlue);
+    background-color: var(--darkBlue);
+    color: var(--lightBlue);
 }
