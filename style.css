@@ -19,7 +19,7 @@ body {
 }
 #bio {
     padding: 10px;
-    margin-top: -30px;
+    /* margin-top: -30px; */
     text-align: justify;
 }
 .icons {
@@ -86,5 +86,12 @@ section {
 
 .dark-mode {
     background-color: var(--darkBlue);
-    color: var(--lightBlue);
+    color: white;
+}
+
+.dark-mode-logo {
+    background-color: white;
+    width: 100%;  
+    margin-right: 70px;
+    border-radius: 10px;
 }
