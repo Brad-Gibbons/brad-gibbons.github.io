@@ -3,5 +3,7 @@ function toggleLights() {
     const logoToggle = document.getElementById('bg-logo');
     logoToggle.classList.toggle('dark-mode-logo')
     lightToggle.classList.toggle('dark-mode')
-    console.log('test')
+    // console.log('test')
+
+    // Add animation to div background 
 }
