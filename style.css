@@ -36,6 +36,9 @@ body {
     will-change: transform;
     transition: transform 450ms;
   }
+  .fa-icon {
+    color: #202D3E;
+  }
   .animate-git:hover #icon-git {
     transition: transform 150ms;
     transform: translateY(-10px);
@@ -94,16 +97,9 @@ section {
     stroke: var(--lightBlue);
 }
 
-
-.Path-4 {
-    /* Cogs */
+.dark-mode-icon {
+    color: var(--lightBlue);
 }
 
-.Group-3 {
-    /*  G */
-}
 
-.Combined-Shape {
-    /* B  */
-}
 

@@ -7,6 +7,8 @@ function toggleLights() {
     const gToggle = document.getElementById('Group-3');
     const cogToggle = document.querySelectorAll("[id='Path-4']");
     const bradGibbonsToggle = document.getElementById('brad-gibbons-digital')
+
+
  
     for(var i = 0; i < cogToggle.length; i++) 
     cogToggle[i].classList.toggle('dark-mode-logo'); // <-- whatever you need to do here.
@@ -17,5 +19,10 @@ function toggleLights() {
     gbitToggle.classList.toggle('dark-mode-logo')
     // console.log('test')
 
-    // Add animation to div background 
+
+    const emailToggle = document.getElementById('icon-mail')
+    const gitToggle = document.getElementById('icon-git')
+
+    emailToggle.classList.toggle('dark-mode-icon')
+    gitToggle.classList.toggle('dark-mode-icon')
 }
