@@ -90,5 +90,20 @@ section {
 }
 
 .dark-mode-logo {
-    width: 100%;  
+    fill: var(--lightBlue);
+    stroke: var(--lightBlue);
 }
+
+
+.Path-4 {
+    /* Cogs */
+}
+
+.Group-3 {
+    /*  G */
+}
+
+.Combined-Shape {
+    /* B  */
+}
+
