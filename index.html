@@ -10,9 +10,17 @@
     <script src="script.js"></script>
 </head>
 <body id="body">
+
+        <!-- <button onclick="toggleLights()">
+            <i class="fa-solid fa-moon lights" id="toggle-lights"></i>
+            <i class="fa-solid fa-sun lights"></i>
+        </button>
+        -->
+
     <header>
-        <button onclick="toggleLights()"><i class="fa-solid fa-moon" id="toggle-lights"></i></button>
+        
         <!-- <object data="images/bg-logo.svg" type="image/svg+xml" id="bg-logo"></object>     -->
+        <div class="logoContainer">
         <?xml version="1.0" encoding="UTF-8"?>
         <svg width="624px" height="243px" viewBox="0 0 624 243" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
@@ -55,24 +63,33 @@
                 </g>
             </g>
         </svg>
+    </div>
     </header>
     <main>
-        <p id="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi illo nam rem exercitationem culpa eaque, ea, ab consequuntur vitae libero doloribus eveniet, dolor officia! Sit ab qui totam recusandae, accusantium aspernatur earum assumenda molestiae rem laboriosam cum quasi neque repellendus at similique iste maiores laudantium vitae ea? Ipsum, dolor autem.</p>
+        <p id="bio">Welcome to my portfolio! I'm a Full Stack Web Developer based in London, currently working as a Senior Digital Content Editor at a prominent charity. As an individual with a deep passion for coding and an eye for creative content, I am eagerly seeking my first step into the web development industry. My experience as a Senior Digital Content Editor has instilled in me a keen sense of detail, a strong commitment to user-centered design, and the ability to transform ideas into engaging digital experiences. I'm excited to embark on this new chapter, expand my skills, and contribute to the ever-evolving world of web development. Explore my work, and please don't hesitate to get in touch.</p>
         <div class="icons">
          <a href="https://github.com/Brad-Gibbons" class="animate-git">  <i class="fa-brands fa-github fa-icon" id="icon-git" ></i></a>
          <a href="mailto:bradgibbonsdev@gmail.com" class="animate-mail"> <i class="fa-solid fa-envelope fa-icon" id="icon-mail" ></i></a> 
         </div>
         <section class="routes">
-            <h2 class="project-title">Selected work</h2>
-            <img src="https://via.placeholder.com/350x200" alt="" class="thumbnails">
+            <h1 class="project-title">Selected work</h1>
             <h3 class="project-title">Essex Routes</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ex neque deserunt laudantium assumenda esse quos aliquam at minima dolore!</p>
+            <p>Revitalized a discontinued walking website featuring a diverse array of Essex walking trails. Leveraged the Astro framework to develop a high-performing, SEO-friendly site, ensuring swift page load times and an easily maintainable platform. This project contributed to the restoration of a valuable online resource for outdoor enthusiasts and nature lovers.</p>
+            <p>Github Link</p>
+            <p>Live Link</p>
         </section>
         <section class="crud">
-            <img src="https://via.placeholder.com/350x200" alt="" class="thumbnails">
-            <h3 class="project-title">A Better Gym App</h3>
-            <p>Tired of dealing with my gyms lousy app, I tried to see if I could make it any better, using react, node and mongodb.</p>
+           
+            <h3 class="project-title">DietDiary</h3>
+            <p>
+                Developed a MERN application that enables users to register and log their daily food intake. The project also incorporated an intermittent fasting widget for enhanced user experience.</p>
         </section>
+        <!-- <section class="crud">
+            <img src="https://via.placeholder.com/350x200" alt="" class="thumbnails">
+            <h3 class="project-title">DietDiary</h3>
+            <p>
+                Developed a MERN application that enables users to register and log their daily food intake. The project also incorporated an intermittent fasting widget for enhanced user experience.</p>
+        </section> -->
     </main>
 </body>
 </html>

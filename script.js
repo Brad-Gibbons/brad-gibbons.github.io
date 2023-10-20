@@ -1,3 +1,5 @@
+
+
 function toggleLights() {
     const lightToggle = document.getElementById('body');
     // const logoToggle = document.getElementById('bg-logo');
@@ -7,6 +9,7 @@ function toggleLights() {
     const gToggle = document.getElementById('Group-3');
     const cogToggle = document.querySelectorAll("[id='Path-4']");
     const bradGibbonsToggle = document.getElementById('brad-gibbons-digital')
+    const icon = document.getElementById('fa-sun');
 
 
  
@@ -17,6 +20,7 @@ function toggleLights() {
     gToggle.classList.toggle('dark-mode-logo')
     bToggle.classList.toggle('dark-mode-logo')
     gbitToggle.classList.toggle('dark-mode-logo')
+    // icon.classList.toggle('toggleIcon')
     // console.log('test')
 
 

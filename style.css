@@ -3,20 +3,32 @@
     --blue: #1FA2F9;
     --lightBlue: #C1E1F8;
 }
+* {box-sizing: border-box;}
 
 #bg-logo {
     width: 100%;  
-    margin-right: 70px;
+  
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     color: var(--darkBlue);
+
 }
-#toggle-lights {
+.logoContainer {
+    text-align: center;
+    margin-top: 20px;
+}    
+
+
+.lights {
     float: right;
     font-size: 30px;
 }
+.fa-sun {
+  display: none;
+}
+
 #bio {
     padding: 10px;
     /* margin-top: -30px; */
@@ -38,6 +50,9 @@ body {
   }
   .fa-icon {
     color: #202D3E;
+  }
+  .bi-brightness {
+    color: #202D3E
   }
   .animate-git:hover #icon-git {
     transition: transform 150ms;
@@ -78,11 +93,24 @@ section {
     }
 }
  
-@media all and (min-width: 768px) and (max-width: 1024px) { }
+@media all and (min-width: 768px) and (max-width: 1024px) {
  
-@media all and (min-width: 480px) and (max-width: 768px) { }
+ }
  
-@media all and (max-width: 480px) { }
+@media all and (min-width: 480px) and (max-width: 768px) { 
+  svg {
+    width: 500px
+  }
+}
+ 
+@media all and (max-width: 480px) { 
+  svg {
+    width: 300px
+  }
+  #bio {
+    margin-top: 0;
+  }
+}
  
 
 /* Dark Mode */
